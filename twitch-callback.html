@@ -52,7 +52,7 @@
         
         if (code) {
             // iOS uygulamasına deep link
-            const deepLink = 'pixlive://twitch-auth?code=' + encodeURIComponent(code) + 
+            const deepLink = 'livecast://twitch-auth?code=' + encodeURIComponent(code) + 
                            (state ? '&state=' + encodeURIComponent(state) : '');
             
             // Hemen yönlendir
